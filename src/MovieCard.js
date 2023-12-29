@@ -10,7 +10,7 @@ const MovieCard  = ({movie}) => {
     <Card.Img style={{ height: '420px', objectFit: 'cover' }} src={movie.posterURL}  />
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
-        <Card.Text>
+        <Card.Text >
           description: {movie.description} <br />
           rating: {movie.rating} <br />
         

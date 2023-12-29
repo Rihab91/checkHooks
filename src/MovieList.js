@@ -3,7 +3,8 @@ import MovieCard from './MovieCard'
 const MovieList=({movies}) => {
   return (
     <div style={{display:'flex',justifyContent:'space-evenly'}}>
- {movies.map((movie,x) => <MovieCard movie={movie}/>)}
+      {/*on a mapper sur movies   */}
+ {movies.map((movie,i) => <MovieCard movie={movie}/>)}
     </div>
   )
 }
